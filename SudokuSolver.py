@@ -161,7 +161,6 @@ def Text():
 
 # ===============================================================================================
 def main():
-    global a
     # flags
     key_pressed = 0
     key_number = 10
@@ -171,7 +170,7 @@ def main():
     reload_sudoku = 0
     write_sudoku = 0
 
-    # Run until the user asks to quit
+    # Run until quit
     running = True
     clock = pygame.time.Clock()
 
